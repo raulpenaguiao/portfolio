@@ -1,0 +1,85 @@
+/*
+Index
+ -- Box Model Hack
+ -- Clear fix hack
+ - Base styles
+ - Layout
+ -- text
+ - Additional styles
+ -- lists
+ -- nav list
+ -- header layout
+ -- middle section
+ -- volunteer section
+ -- footer
+ -- misc
+ -- links and buttons
+ -- images
+ -- columns
+ */
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+
+.cf:before,
+.cf:after {
+content: "";
+display: table;
+}
+.cf:after {
+clear: both;
+}
+.cf {
+clear: both;
+*zoom: 1;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1 {
+  width: fit-content;
+  margin: 100px auto;
+  font-size: 4.5rem;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
